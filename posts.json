@@ -1,0 +1,174 @@
+
+[
+  {
+    "id": "the-heart-drives-hum",
+    "title": "The Heart-Drive’s Hum",
+    "excerpt": "The dusty bedroom in 1995 Tokyo was silent except for the rhythmic 'clunk-whirr' of the external drive.",
+    "date": "2025-01-22",
+    "author": "Haru",
+    "coverImage": "https://images.unsplash.com/photo-1591465671116-80971b429312?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["RetroTech", "MoeStation95", "NeoKawaii", "CyberNostalgia"]
+  },
+  {
+    "id": "dithered-sunset",
+    "title": "Dithered Sunset",
+    "excerpt": "Aya watched the ordered dithering transform a simple sunset into a sea of tiny, purposeful dots.",
+    "date": "2025-02-14",
+    "author": "Aya",
+    "coverImage": "https://images.unsplash.com/photo-1614850523296-e811cf7eeea4?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["LoFiAnime", "CRT_Aesthetic", "Tokyo1995", "DigitalShrine"]
+  },
+  {
+    "id": "the-navigation-ghost",
+    "title": "The Navigation Ghost",
+    "excerpt": "The site was a 'shrine' to a time that never quite ended—a 3.5-inch gateway to a lost decade.",
+    "date": "2025-03-09",
+    "author": "Archive Ghost",
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["WebCore", "Vaporwave", "NarrativeArchives", "PixelArt"]
+  },
+  {
+    "id": "the-1-44mb-time-machine",
+    "title": "The 1.44MB Time Machine",
+    "excerpt": "The plastic shell was cold, a sharp contrast to the humid Tokyo night pressing against the window.",
+    "date": "2025-04-18",
+    "author": "Kenji",
+    "coverImage": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["TokyoNights", "FloppyDisk", "1995", "DigitalArchive"]
+  },
+  {
+    "id": "neon-ghost-in-the-machine",
+    "title": "Neon Ghost in the Machine",
+    "excerpt": "Every time the page refreshed, a faint chromatic aberration bled into the edges of the Dela Gothic text.",
+    "date": "2025-05-30",
+    "author": "SysAdmin",
+    "coverImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["CRT_Glow", "GlitchArt", "MoeStation", "RetroUI"]
+  },
+  {
+    "id": "the-star-sticker-secret",
+    "title": "The Star-Sticker Secret",
+    "excerpt": "The yellow '95' star sticker wasn't just for decoration; it covered a small crack in the disk's casing.",
+    "date": "2025-06-05",
+    "author": "Archive_95",
+    "coverImage": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["StreetAesthetic", "BBS_Culture", "VintageTech", "MoeStation95"]
+  },
+  {
+    "id": "the-holographic-memory",
+    "title": "The Holographic Memory",
+    "excerpt": "She tilted the floppy disk back and forth, watching the holographic metal shutter dance between lavender and cyan.",
+    "date": "2025-07-12",
+    "author": "Mina",
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["Holographic", "NeoKawaii", "TechOptimism", "MemoryArchive"]
+  },
+  {
+    "id": "the-pink-disk-confession",
+    "title": "The Pink Disk Confession",
+    "excerpt": "It wasn’t a letter, but it was just as fragile. He handed her a pastel pink floppy disk with no title.",
+    "date": "2025-08-20",
+    "author": "Yuki",
+    "coverImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["RetroRomance", "FirstCrush", "MoeStation", "DigitalLove"]
+  },
+  {
+    "id": "glowing-in-the-dark",
+    "title": "Glowing in the Dark",
+    "excerpt": "They sat shoulder-to-shoulder in the cramped bedroom, the only light coming from the CRT monitor’s soft purple glow.",
+    "date": "2025-09-02",
+    "author": "Nao",
+    "coverImage": "https://images.unsplash.com/photo-1525338078858-d762b51305fe?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["Tokyo1995", "MidnighChat", "CRT_Glow", "AnalogHeart"]
+  },
+  {
+    "id": "the-star-sticker-promise",
+    "title": "The Star-Sticker Promise",
+    "excerpt": "Before she moved away, she gave him her favorite drive, decorated with a tilted yellow '95' star sticker.",
+    "date": "2025-09-28",
+    "author": "Taku",
+    "coverImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["Bittersweet", "NostalgicLove", "MoeStation95", "CyberSouvenir"]
+  },
+  {
+    "id": "dithered-dreams-of-you",
+    "title": "Dithered Dreams of You",
+    "excerpt": "In the world of the MoeStation BBS, they were just two handles in a sea of blue text.",
+    "date": "2025-10-14",
+    "author": "Ren",
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["BBS_Love", "VirtualShrine", "90sInternet", "LoFiRomance"]
+  },
+  {
+    "id": "the-emulated-heart",
+    "title": "The Emulated Heart",
+    "excerpt": "Kaito sat in his ultra-modern Tokyo apartment, the sleek lines of his 4K monitor clashing with the software he was running.",
+    "date": "2025-11-03",
+    "author": "Kaito",
+    "coverImage": "https://images.unsplash.com/photo-1593642634315-48f541e24a64?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["ModernRetro", "Emulation", "MoeStation95", "DigitalArcheology"]
+  },
+  {
+    "id": "the-thrift-store-mystery",
+    "title": "The Thrift Store Mystery",
+    "excerpt": "In a bin of tangled USB cables and broken plastic, Maya found it: a 3.5-inch floppy disk in a shocking shade of pastel pink.",
+    "date": "2025-11-20",
+    "author": "Maya",
+    "coverImage": "https://images.unsplash.com/photo-1542332213-31f87348057f?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["ThriftStoreFind", "AnalogSoul", "NeoKawaii", "Artifact"]
+  },
+  {
+    "id": "4k-dithering",
+    "title": "4K Dithering",
+    "excerpt": "The web developer stared at the CSS file, trying to replicate a feeling he had only seen in old magazines.",
+    "date": "2025-12-05",
+    "author": "Dev_95",
+    "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["WebDesign", "RetroCoding", "MoeStation", "CyberShrine"]
+  },
+  {
+    "id": "the-adapters-bridge",
+    "title": "The Adapter’s Bridge",
+    "excerpt": "The 'clunk-whirr' sound was louder than she remembered. Sarah had connected an old external drive to her high-speed laptop.",
+    "date": "2025-12-12",
+    "author": "Sarah",
+    "coverImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["TimeCapsule", "TechLegacy", "MoeStation95", "DigitalMemory"]
+  },
+  {
+    "id": "the-dial-up-duet",
+    "title": "The Dial-Up Duet",
+    "excerpt": "The 14.4k modem screamed its mechanical birth-cry, a digital bridge forming between two dusty bedrooms across Tokyo.",
+    "date": "2025-12-18",
+    "author": "Anon_95",
+    "coverImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["1995", "BBS_Culture", "TokyoNights", "DialUpLove", "MoeStation95"]
+  },
+  {
+    "id": "the-dithered-ghost-of-akihabara",
+    "title": "The Dithered Ghost of Akihabara",
+    "excerpt": "He found the drive in a back-alley bin in Akihabara, its pastel pink shell scratched but the holographic shutter still defiant.",
+    "date": "2025-12-24",
+    "author": "Glitch_Hunter",
+    "coverImage": "https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["Akihabara", "GlitchArt", "StreetAesthetic", "CyberNostalgia", "MoeStation"]
+  },
+  {
+    "id": "the-1-44mb-valentine",
+    "title": "The 1.44MB Valentine",
+    "excerpt": "In the era of WebCore and infinite scrolling, she chose the Analog Heart approach.",
+    "date": "2025-12-28",
+    "author": "Sarah",
+    "coverImage": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["RetroRomance", "AnalogHeart", "FloppyDisk", "Bittersweet", "NostalgicLove"]
+  },
+  {
+    "id": "the-shutters-last-click",
+    "title": "The Shutter’s Last Click",
+    "excerpt": "The Narrative Archives were finally complete. Thousands of stories, all tucked behind heavy 3px black borders.",
+    "date": "2025-12-31",
+    "author": "Admin_95",
+    "coverImage": "https://images.unsplash.com/photo-1558489020-0294992bad5a?q=80&w=1200&h=1600&fit=crop",
+    "tags": ["NarrativeArchives", "WebCore", "DigitalShrine", "MoeStation95", "TheEnd"]
+  }
+]
