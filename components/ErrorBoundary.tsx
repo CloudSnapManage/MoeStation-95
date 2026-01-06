@@ -1,5 +1,5 @@
 
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import React, { ErrorInfo, ReactNode } from 'react';
 import { AlertTriangle, RefreshCcw, Home } from 'lucide-react';
 
 interface Props {
@@ -10,21 +10,36 @@ interface State {
   hasError: boolean;
 }
 
-class ErrorBoundary extends Component<Props, State> {
-  public state: State = {
-    hasError: false
-  };
+// Using React.Component explicitly with Props and State generics to ensure 'props' is properly typed and available in the class scope.
+class ErrorBoundary extends React.Component<Props, State> {
+  // Fix: Explicitly declare state and props to resolve TypeScript errors regarding missing properties on the class type.
+  public state: State;
+  public props: Props;
+
+  constructor(props: Props) {
+    super(props);
+    // Fix: Set the initial state for the ErrorBoundary
+    this.state = {
+      hasError: false
+    };
+    // Fix: Explicitly satisfy the property check even though super(props) handles this in standard React.
+    this.props = props;
+  }
 
   public static getDerivedStateFromError(_: Error): State {
+    // Update state so the next render will show the fallback UI.
     return { hasError: true };
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+    // You can also log the error to an error reporting service
     console.error("Uncaught error:", error, errorInfo);
   }
 
   public render() {
+    // Fix: Access 'this.state' which is now explicitly declared to avoid property missing errors.
     if (this.state.hasError) {
+      // Fallback UI when an error is caught
       return (
         <div className="min-h-screen bg-[var(--bg-color)] flex flex-col items-center justify-center p-6 text-center">
           <div className="bg-[var(--card-bg)] border-4 border-[var(--border-main)] p-8 md:p-12 shadow-[12px_12px_0px_0px_var(--shadow-color)] max-w-lg w-full">
@@ -54,8 +69,8 @@ class ErrorBoundary extends Component<Props, State> {
       );
     }
 
-    // Access children through props in a class component
-    return this.props.children;
+    // Fix: Access 'this.props' which is now explicitly declared to avoid property missing errors.
+    return this.props.children || null;
   }
 }
 

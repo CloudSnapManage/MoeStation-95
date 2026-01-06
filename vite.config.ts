@@ -1,23 +1,25 @@
-import path from 'path';
-import { defineConfig, loadEnv } from 'vite';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ mode }) => {
-    const env = loadEnv(mode, '.', '');
-    return {
-      server: {
-        port: 3000,
-        host: '0.0.0.0',
-      },
-      plugins: [react()],
-      define: {
-        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-      },
-      resolve: {
-        alias: {
-          '@': path.resolve(__dirname, '.'),
-        }
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  // For User/Organization pages (username.github.io), the base is usually '/'
+  // For Project pages (username.github.io/repo/), the base is './'
+  base: './', 
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      input: {
+        main: './index.html'
       }
-    };
+    }
+  },
+  // We specify that static assets are in the root so posts.json and content/ are copied
+  publicDir: './', 
+  server: {
+    port: 3000,
+    open: true
+  }
 });
